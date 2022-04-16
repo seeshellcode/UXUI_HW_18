@@ -22,21 +22,21 @@ body {
 /***** HEADER *****/
 header {
     height: 800px;
-    background: url(../images/hero_image.png);
+    background: url(../images/hero_image_dk.png);
     background-size: cover;
     background-position: center;
     }
 
 header h1 { 
-    color: #fffff;
+    color: #0ecee7;
     font-size: 30px;
-    padding: 65px 0 65px px;
+    padding: 65px 0 65px;
     text-transform: uppercase; 
 }
 
 nav {
     float: right; 
-    padding: 10px 2px;
+    padding: 75px 2px;
 }
 
 nav ul li{
@@ -59,7 +59,7 @@ header h2 {
     padding: 50px;
 }
     header h2 span {
-    color: #09f2f2;
+    color: #0ecee7;
 }
 
 
