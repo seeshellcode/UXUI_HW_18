@@ -14,6 +14,10 @@ body {
     width: 600px;
     float: left;
 }
+.third-width {
+    float: left;
+    width: 400px;
+}
 
 /***** HEADER *****/
 header {
@@ -21,10 +25,10 @@ header {
     background: url(../images/hero_image.png);
     background-size: cover;
     background-position: center;
-}
+    }
+
 header h1 { 
-    color: #ffffff;
-    font-family: 'Lora';
+    color: #fffff;
     font-size: 30px;
     padding: 65px 0 65px px;
     text-transform: uppercase; 
@@ -48,10 +52,69 @@ nav ul li a {
 }
 header h2 {
     width: 1100px;
-    font-family: 'Lora';
-    font-size: 40px;
+    font-size: 48px;
     line-height: 65px;
     color: #ffffff;
     text-align: center;
     padding: 50px;
 }
+    header h2 span {
+    color: #09f2f2;
+}
+
+
+/***** SKILLS *****/
+#skills {
+    text-align: center;
+    color: black;
+}
+
+#skills .full-width {
+    padding: 115px 115px;
+}
+
+#skills img {
+    padding-bottom: 30px;
+}
+#skills h1 {
+    font-size: 48px;
+    color: #090909;
+    text-align: center;
+    padding-top: 30px;
+
+}
+#skills h3 {
+    font-size: 24px;
+    color: black;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 190px;
+}
+
+#skills p {
+    font-family: 'Lora';
+    color:black;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}  
+/***** WORK *****/
+
+#work {
+    background-color: #ebebeb;
+}
+  
+#work .full-width {
+    padding: 110px 0;
+}
+
+#work h1 {
+    font-size: 48px;
+    color: #090909;
+    text-align: center;
+    padding-top: 30px;
+}
+#work h2 {
+    font-size: 24px;
+    color: #090909;
+    float: right;
